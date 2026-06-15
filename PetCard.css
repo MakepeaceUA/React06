@@ -1,0 +1,69 @@
+.pet-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  margin: 20px auto;
+  overflow: hidden;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-photo-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.pet-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pet-photo:hover {
+  transform: scale(1.03);
+}
+
+.pet-details {
+  padding: 24px;
+}
+
+.pet-name {
+  margin: 0 0 15px 0;
+  font-size: 28px;
+  color: #2c3e50;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+
+.pet-meta p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555555;
+}
+
+.pet-traits {
+  margin-top: 20px;
+}
+
+.pet-traits h3 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.pet-traits ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #555555;
+}
+
+.pet-traits li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.4;
+}
